@@ -1,4 +1,5 @@
-package main;
+//test to make sure Go is working in VS code
+package main
 
 import (
 	"fmt"
