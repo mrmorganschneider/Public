@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func mainTraining1() {
 	fmt.Println("Welcome to the playground!")
 
 	fmt.Println("The time is", time.Now())
