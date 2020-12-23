@@ -32,6 +32,7 @@ func Sqrt(x float64) float64 {
 	return z
 }
 
+//Change function name to "main" to run independently of main.go
 func mainExercise1() {
 	fmt.Println(Sqrt(2))
 }
