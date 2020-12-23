@@ -32,6 +32,6 @@ func Sqrt(x float64) float64 {
 	return z
 }
 
-func main() {
+func mainExercise1() {
 	fmt.Println(Sqrt(2))
 }
