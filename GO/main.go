@@ -8,5 +8,7 @@ func main() {
 	//mainExercise1()
 	///mainExercise2() cannot function outside of go tour due to pic import
 	///mainExercise3() cannot function outside of go tour due to test import
-	mainExercise4()
+	//mainExercise4()
+	//mainExercise5()
+	mainExercise6()
 }

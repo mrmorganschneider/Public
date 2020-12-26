@@ -5,7 +5,7 @@ import "fmt"
 type IPAddr [4]byte
 
 func (p IPAddr) String() string {
-	return fmt.Sprintf("%v.%v.%v.%v", p[1], p[2], p[3], p[4])
+	return fmt.Sprintf("%v.%v.%v.%v", p[0], p[1], p[2], p[3])
 }
 
 func mainExercise5() {
