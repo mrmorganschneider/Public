@@ -54,6 +54,18 @@ As with above, the code will not run independently of the website due to the nee
 
 #### Exercise 4: Fibonacci closure
 
-The objective of this exercise was to create a function that would calculate the Fibonacci values to a user specified point using a closure. ink to the execise is [here.](https://tour.golang.org/moretypes/26)
+The objective of this exercise was to create a function that would calculate the Fibonacci values to a user specified point using a closure. Link to the execise is [here.](https://tour.golang.org/moretypes/26)
 
-This code will work outside of the website as it does not require any specific packages to function. 
+This code will work outside of the website as it does not require any specific packages to function.  
+
+#### Exercise 5: Stringers
+
+The objective of this exercise was to a Stringer function for the IPAddr type that would return the values of an IP address as a string rather than a 4 byte array. Link to the execise is [here.](https://tour.golang.org/methods/18)
+
+This exercise was fairly straightforward as this merely required parsing the input array using the sprintf function as seen below.
+
+   func (p IPAddr) String() string {
+       return fmt.Sprintf("%v.%v.%v.%v", p[0], p[1], p[2], p[3])
+       }
+
+No major complications encountered in this exercise.
