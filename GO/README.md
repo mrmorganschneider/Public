@@ -69,3 +69,11 @@ This exercise was fairly straightforward as this merely required parsing the inp
        }
 
 No major complications encountered in this exercise.
+
+#### Exercise 6: Errors
+
+The objective of this exercise was to implement error handling in case a negative number was introduced into the sqrt function developed in exercise 1. Link to the execise is [here.](https://tour.golang.org/methods/20)
+
+As a general remark, I have to say that this portion of the tour of Go was really not well explained. I had to dig through a lot of additional references before I was able to get a handle on the error concept. Also, I am aware that this could have been handled using a function call to the previous sqrt function located in exercise 1 when run in an offile environment. However, I wanted to be certain that the code functioned inside the tour website so I implemented the sqrt_2 function in this file. 
+
+    func Sqrt_2(x float64) (float64, error) {
