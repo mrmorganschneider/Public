@@ -32,7 +32,7 @@ func Sqrt_2(x float64) (float64, error) {
 		return z, nil
 	}
 }
-func main() {
+func mainExercise6() {
 	fmt.Println(Sqrt_2(2))
 	fmt.Println(Sqrt_2(-2))
 }
