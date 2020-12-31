@@ -11,4 +11,6 @@ func main() {
 	//mainExercise4()
 	//mainExercise5()
 	mainExercise6()
+	mainExercise7()
+	mainExercise8()
 }

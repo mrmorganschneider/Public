@@ -17,6 +17,6 @@ func (reader MyReader) Read(b []byte) (n int, err error) {
 	return len(b), nil
 }
 
-func main() {
+func mainExercise7() {
 	reader.Validate(MyReader{})
 }
