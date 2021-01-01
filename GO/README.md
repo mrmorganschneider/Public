@@ -10,7 +10,7 @@ A note before beginning, as Go compiles all files in the same package and requir
 
 ### Examples
 
-#### Exercise 1: Loops and functions
+#### Exercise 1: Loops and functions # <a name="#1-Exercise-1:-Loops-and-functions"></a>
 
 The purpose of this exercise was to create a loop that calculated the value of a square root to a developer-specified value, first using a repeating loop and then to a certain degree of certainty using a method of our choosing. 
 
@@ -64,29 +64,29 @@ The objective of this exercise was to a Stringer function for the IPAddr type th
 
 This exercise was fairly straightforward as this merely required parsing the input array using the sprintf function as seen below.
 
-   func (p IPAddr) String() string {
-       return fmt.Sprintf("%v.%v.%v.%v", p[0], p[1], p[2], p[3])
-       }
+	func (p IPAddr) String() string {
+		return fmt.Sprintf("%v.%v.%v.%v", p[0], p[1], p[2], p[3])
+		}
 
 No major complications encountered in this exercise.
 
 #### Exercise 6: Errors
 
-The objective of this exercise was to implement error handling in case a negative number was introduced into the sqrt function developed in exercise 1. Link to the exercise is [here.](https://tour.golang.org/methods/20)
+The objective of this exercise was to implement error handling in case a negative number was introduced into the sqrt function developed in [exercise 1](#1-Exercise-1:-Loops-and-functions). Link to the exercise is [here.](https://tour.golang.org/methods/20)
 
 As a general remark, I have to say that this portion of the tour of Go was really not well explained. I had to dig through a lot of additional references before I was able to get a handle on the error concept. Also, I am aware that this could have been handled using a function call to the previous sqrt function located in exercise 1 when run in an offline environment. However, I wanted to be certain that the code functioned inside the tour website so I implemented the sqrt_2 function in this file.
 
-    func Sqrt_2(x float64) (float64, error) {
+	func Sqrt_2(x float64) (float64, error) {
 
 #### Exercise 7: Readers
 
 The objective of this exercise was to create a reader interface that replaced all text read by the reader with the character "A".  Link to the exercise is [here.](https://tour.golang.org/methods/22)
 
-I have few comments on this exercise itself as it is fairly straight forward. The only obstacle I faced was understanding again what the exercise wanted as an output. According to the exercise, the desired result was as follows:
+I have few comments on this exercise itself as it is fairly straight forward. The only obstacle I faced was again understanding what the exercise wanted as an output. According to the exercise, the desired result was as follows:
 
 > Implement a Reader type that emits an infinite stream of the ASCII character 'A'.
 
-I initially interpreted this direction as creating a reader that printed an infinite number of 'A" characters, which made no sense as a reader function. Further investigation revealed that the exercise wanted what is described in the first paragraph.
+I initially interpreted this direction as creating a reader that printed an infinite number of 'A" characters, which made no sense as a reader function. Further investigation revealed that the exercise wanted what is described in objective.
 
 #### Exercise 8: ROT13Reader
 
@@ -100,7 +100,7 @@ Once I figured that step out, the rest was a fairly trivial job of implementing 
 
 #### Exercise 9: Image interface
 
-The objective of this exercise was to create the interfaces needed to generate an image similar to the one created in [exercise 2](#2-Exercise-2:-Slices)Link to the exercise is [here.](https://tour.golang.org/methods/25)
+The objective of this exercise was to create the interfaces needed to generate an image similar to the one created in [exercise 2.](#2-Exercise-2:-Slices)Link to the exercise is [here.](https://tour.golang.org/methods/25)
 
 Note that this code will not work apart from the Go tour page as it requires the pic import to function correctly. The results of the code presented are below.
 
@@ -108,7 +108,7 @@ Note that this code will not work apart from the Go tour page as it requires the
 
 To recreate the image seen in exercise 2, replace 128 in the Image definition with 256.
 
-My biggest challenge with this code was implementing the color method. I kept receiving the following errors and was stuck for a while trying to figure out the issue:
+My biggest challenge with this exercise was implementing the color method. I kept receiving the following errors and was stuck for a while trying to figure out the issue:
 
 	./prog.go:12:29: undefined: color
 	./prog.go:14:9: undefined: color
