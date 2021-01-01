@@ -10,7 +10,8 @@ func main() {
 	///mainExercise3() cannot function outside of go tour due to test import
 	//mainExercise4()
 	//mainExercise5()
-	mainExercise6()
-	mainExercise7()
-	mainExercise8()
+	//mainExercise6()
+	//mainExercise7()
+	//mainExercise8()
+	///mainExercise9()cannot function outside of go tour due to pic import
 }
