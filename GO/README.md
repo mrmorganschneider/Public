@@ -10,7 +10,7 @@ A note before beginning, as Go compiles all files in the same package and requir
 
 ### Examples
 
-#### Exercise 1: Loops and functions # <a name="#1-Exercise-1:-Loops-and-functions"></a>
+#### Exercise 1: Loops and functions <a name="#1-Exercise-1:-Loops-and-functions"></a>
 
 The purpose of this exercise was to create a loop that calculated the value of a square root to a developer-specified value, first using a repeating loop and then to a certain degree of certainty using a method of our choosing. 
 
@@ -54,7 +54,7 @@ As with exercise 2, the code will not run independently of the website due to th
 
 #### Exercise 4: Fibonacci closure
 
-The objective of this exercise was to create a function that would calculate the Fibonacci values to a user specified point using a closure. Link to the execise is [here.](https://tour.golang.org/moretypes/26)
+The objective of this exercise was to create a function that would calculate the Fibonacci values to a user specified point using a closure. Link to the exercise is [here.](https://tour.golang.org/moretypes/26)
 
 This code will work outside of the website as it does not require any specific packages to function.  
 
@@ -90,7 +90,7 @@ I initially interpreted this direction as creating a reader that printed an infi
 
 #### Exercise 8: ROT13Reader
 
-The objective of this exercise was to create a reader that took another reader as input and applied an ROT13 cipher to the characters. Link to the execise is [here.](https://tour.golang.org/methods/23)
+The objective of this exercise was to create a reader that took another reader as input and applied an ROT13 cipher to the characters. Link to the exercise is [here.](https://tour.golang.org/methods/23)
 
 This was one of the more challenging exercises I had encountered to date. My greatest challenge was figuring out how to actually access the value of the first reader that was being read by the rot13reader. I had to perform additional research to find out that the code required an additional de-reference to access the ascii character stored in the initial reader as seen below:
 
