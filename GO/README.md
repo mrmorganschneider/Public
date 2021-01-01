@@ -36,9 +36,9 @@ This line is commented in the file to prevent it from running concurrently with 
 
 #### Exercise 2: Slices
 
-The purpose of this exercise was to create a process that calculated the value for each element in a slice of slices object. Link to the execise is [here.](https://tour.golang.org/moretypes/18)
+The purpose of this exercise was to create a process that calculated the value for each element in a slice of slices object. Link to the exercise is [here.](https://tour.golang.org/moretypes/18)
 
-It should be noted that this code will not function independently from the tour website as the exercise requies the importation of the pic package
+It should be noted that this code will not function independently from the tour website as the exercise requires the importation of the pic package
 
     import "golang.org/x/tour/pic"
 
@@ -48,9 +48,9 @@ As such, to verify the code works, you must copy the code to the webpage listed 
 
 #### Exercise 3: Maps
 
-The objective of this exercise was to create a function that would parse a string and keep count of the number of unique words located in the input. Link to the execise is [here.](https://tour.golang.org/moretypes/23)
+The objective of this exercise was to create a function that would parse a string and keep count of the number of unique words located in the input. Link to the exercise is [here.](https://tour.golang.org/moretypes/23)
 
-As with above, the code will not run independently of the website due to the need for the wc package. The function works by first parsing the text using the strings.Fields method and then mapping each word to a unique location in a map, incrementing the value in the map if it already exists or creating a new map entry if not.
+As with exercise 2, the code will not run independently of the website due to the need for the wc package. The function works by first parsing the text using the strings.Fields method and then mapping each word to a unique location in a map, incrementing the value in the map if it already exists or creating a new map entry if not.
 
 #### Exercise 4: Fibonacci closure
 
@@ -72,15 +72,15 @@ No major complications encountered in this exercise.
 
 #### Exercise 6: Errors
 
-The objective of this exercise was to implement error handling in case a negative number was introduced into the sqrt function developed in exercise 1. Link to the execise is [here.](https://tour.golang.org/methods/20)
+The objective of this exercise was to implement error handling in case a negative number was introduced into the sqrt function developed in exercise 1. Link to the exercise is [here.](https://tour.golang.org/methods/20)
 
-As a general remark, I have to say that this portion of the tour of Go was really not well explained. I had to dig through a lot of additional references before I was able to get a handle on the error concept. Also, I am aware that this could have been handled using a function call to the previous sqrt function located in exercise 1 when run in an offile environment. However, I wanted to be certain that the code functioned inside the tour website so I implemented the sqrt_2 function in this file. 
+As a general remark, I have to say that this portion of the tour of Go was really not well explained. I had to dig through a lot of additional references before I was able to get a handle on the error concept. Also, I am aware that this could have been handled using a function call to the previous sqrt function located in exercise 1 when run in an offline environment. However, I wanted to be certain that the code functioned inside the tour website so I implemented the sqrt_2 function in this file.
 
     func Sqrt_2(x float64) (float64, error) {
 
 #### Exercise 7: Readers
 
-The objective of this exercise was to create a reader interface that replaced all text read by the reader with the character "A".  Link to the execise is [here.](https://tour.golang.org/methods/22)
+The objective of this exercise was to create a reader interface that replaced all text read by the reader with the character "A".  Link to the exercise is [here.](https://tour.golang.org/methods/22)
 
 I have few comments on this exercise itself as it is fairly straight forward. The only obstacle I faced was understanding again what the exercise wanted as an output. According to the exercise, the desired result was as follows:
 
@@ -96,11 +96,11 @@ This was one of the more challenging exercises I had encountered to date. My gre
 
 	n, err := z.r.Read(p)
 
-Once I figured that step out, the rest was a fairly trivial job of implimenting a switch that checked the character value and made the appropriate change as seen [here](https://en.wikipedia.org/wiki/ROT13).
+Once I figured that step out, the rest was a fairly trivial job of implementing a switch that checked the character value and made the appropriate change as seen [here](https://en.wikipedia.org/wiki/ROT13).
 
 #### Exercise 9: Image interface
 
-The objective of this exercise was to create the interfaces needed to generate an image similar to the one created in [exercise 2](#2-Exercise-2:-Slices)Link to the execise is [here.](https://tour.golang.org/methods/25)
+The objective of this exercise was to create the interfaces needed to generate an image similar to the one created in [exercise 2](#2-Exercise-2:-Slices)Link to the exercise is [here.](https://tour.golang.org/methods/25)
 
 Note that this code will not work apart from the Go tour page as it requires the pic import to function correctly. The results of the code presented are below.
 
