@@ -77,3 +77,45 @@ The objective of this exercise was to implement error handling in case a negativ
 As a general remark, I have to say that this portion of the tour of Go was really not well explained. I had to dig through a lot of additional references before I was able to get a handle on the error concept. Also, I am aware that this could have been handled using a function call to the previous sqrt function located in exercise 1 when run in an offile environment. However, I wanted to be certain that the code functioned inside the tour website so I implemented the sqrt_2 function in this file. 
 
     func Sqrt_2(x float64) (float64, error) {
+
+#### Exercise 7: Readers
+
+The objective of this exercise was to create a reader interface that replaced all text read by the reader with the character "A".  Link to the execise is [here.](https://tour.golang.org/methods/22)
+
+I have few comments on this exercise itself as it is fairly straight forward. The only obstacle I faced was understanding again what the exercise wanted as an output. According to the exercise, the desired result was as follows:
+
+> Implement a Reader type that emits an infinite stream of the ASCII character 'A'.
+
+I initially interpreted this direction as creating a reader that printed an infinite number of 'A" characters, which made no sense as a reader function. Further investigation revealed that the exercise wanted what is described in the first paragraph.
+
+#### Exercise 8: ROT13Reader
+
+The objective of this exercise was to create a reader that took another reader as input and applied an ROT13 cipher to the characters. Link to the execise is [here.](https://tour.golang.org/methods/23)
+
+This was one of the more challenging exercises I had encountered to date. My greatest challenge was figuring out how to actually access the value of the first reader that was being read by the rot13reader. I had to perform additional research to find out that the code required an additional de-reference to access the ascii character stored in the initial reader as seen below:
+
+	n, err := z.r.Read(p)
+
+Once I figured that step out, the rest was a fairly trivial job of implimenting a switch that checked the character value and made the appropriate change as seen [here](https://en.wikipedia.org/wiki/ROT13).
+
+#### Exercise 9: Image interface
+
+The objective of this exercise was to create the interfaces needed to generate an image similar to the one created in [exercise 2](#2-Exercise-2:-Slices)Link to the execise is [here.](https://tour.golang.org/methods/25)
+
+Note that this code will not work apart from the Go tour page as it requires the pic import to function correctly. The results of the code presented are below.
+
+![Exercise 9 output](exercise_9_output.png "Exercise 9 output")
+
+To recreate the image seen in exercise 2, replace 128 in the Image definition with 256.
+
+My biggest challenge with this code was implementing the color method. I kept receiving the following errors and was stuck for a while trying to figure out the issue:
+
+	./prog.go:12:29: undefined: color
+	./prog.go:14:9: undefined: color
+	./prog.go:22:29: undefined: color
+	./prog.go:26:9: undefined: color
+
+I initially believed that the color method was imported with the image import. However, after a long time of the above errors, further research lead me to realize that a separate import was required for the color method to be implemented properly.
+
+	import "image"
+	import "image/color"
