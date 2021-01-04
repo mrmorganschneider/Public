@@ -6,15 +6,15 @@
 
 This section of my Github Public directory is a space to demonstrate my answers to the coding exercises from the [Go language tour](https://tour.golang.org/list). Each exercise will contain a link to the relevant page from the tour as well as any explanation for non-functionality should the code be downloaded and compiled independently.
 
-A note before beginning, as Go compiles all files in the same package and requires that only one main function be present, I created the main.go file to contain the main function for all my examples. This file contains the names of the functions to be executed based on the exercise that I am currently working on. You can change this by editing the file in question to change the *main_exercise_name* function in the file to just *main*
+A few notes before beginning. First, as Go compiles all files in the same package and requires that only one main function be present, I created the main.go file to contain the main function for all my examples. This file contains the names of the functions to be executed based on the exercise that I am currently working on. You can change this by editing the file in question to change the *main_exercise_name* function in the file to just *main*.
+
+Second, many of these exercises rely on packages present on the Go tour website. While these packages can be downloaded an used to run the functions offline, it is usually quicker and easier just to copy and paste code into the compiler located on the webpage linked rather than deal with the hassle of downloading the packages just for the purpose of these exercises. All exercises that depend on these external packages will be mentioned.
 
 ### Examples
 
 #### Exercise 1: Loops and functions <a name="#1-Exercise-1:-Loops-and-functions"></a>
 
-The purpose of this exercise was to create a loop that calculated the value of a square root to a developer-specified value, first using a repeating loop and then to a certain degree of certainty using a method of our choosing. 
-
-The page for this exercise can be found [here.](https://tour.golang.org/flowcontrol/8)
+The purpose of this exercise was to create a loop that calculated the value of a square root to a developer-specified value, first using a repeating loop and then to a certain degree of certainty using a method of our choosing. Link to the exercise is [here.](https://tour.golang.org/flowcontrol/8)
 
 The first method was to use a for loop with 10 iterations to calculate the value of the square root. This can be seen below:
 
@@ -100,7 +100,7 @@ Once I figured that step out, the rest was a fairly trivial job of implementing 
 
 #### Exercise 9: Image interface
 
-The objective of this exercise was to create the interfaces needed to generate an image similar to the one created in [exercise 2.](#2-Exercise-2:-Slices)Link to the exercise is [here.](https://tour.golang.org/methods/25)
+The objective of this exercise was to create the interfaces needed to generate an image similar to the one created in [exercise 2.](#2-Exercise-2:-Slices) Link to the exercise is [here.](https://tour.golang.org/methods/25)
 
 Note that this code will not work apart from the Go tour page as it requires the pic import to function correctly. The results of the code presented are below.
 
@@ -119,3 +119,21 @@ I initially believed that the color method was imported with the image import. H
 
 	import "image"
 	import "image/color"
+
+#### Exercise 10: Equivalent Binary Trees
+
+In this exercise, the objective was to implement two functions, Same and Walk, to determine if two binary trees contained the same values using concurrency to recursively path down the trees and compare the results from the channels. Link to the exercise is [here.](https://tour.golang.org/concurrency/7)
+
+Upon further examination, I realized after implementation that my initial implementation of this exercise was not correct. The objective was to check whether or not the values received by the channels created for recursing through the trees received equivalent values, not whether or not the sum of the values of the trees were identical. This result is presented in the exercise 10 corrected file. As I believe that my original work had value in demonstrating the work I had done, I decided to maintain this code here for an example of my work in go.
+
+Goroutines took a while for me to understand the principle of the channel. My initial understanding was that the routines performed the calculations and then returned values once the routine was complete. However, while working on the assignment, it dawned on me that the routines return a continuous stream of data as each value is calculated. This explained why my tests were returning no value but not returning any error as the channels were not closed and data was still being expected. Once I implemented the Closer function to close the channels once the calculations were complete, the results started coming as expected.
+
+#### Exercise 11: Web crawler
+
+In this exercise, the objective was to implement a crawl function using concurrency that crawled through a fake web page listing and returned the web links only if the links had not previously been listed. Link to the exercise is [here.](https://tour.golang.org/concurrency/10)
+
+I admit that this exercise was a challenge for me. The first issue I encountered was that I forgot that a variable could be initialized outside a func, thereby enabling that variable to be accessed by all functions in the package. Initially, I had been trying to implement a func call similar to the [previous exercise](https://tour.golang.org/concurrency/10), which required a major rework of the provided code. Once I realized that this was unusual for these exercises, I performed some research on variable declaration in GO and realized my error. Once the urlStore variable was declared outside my funcs and was accessible by all in the package, this exercise became simpler. 
+
+Another major roadblock was realizing that maps can store bool types just like any other types in GO. Initially, I was trying to store the string slice and compare the url in question to the string slice. While this was successful, and in fact similar to the way that the checkVisited method works, once I realized that I could store bool types as the second type in the map, the exercise came together for me.
+
+The last issue I encountered was related to concurrency and waiting. The waitgroup had not been previously discussed in the tour and I was unfamiliar with it's use. While it appeared my solution was working, I could only get the code to print the first output line before the program exited. Only after checking my solution with others did I discover the use of waitgroup to ensure that the main function waits for all goroutines to complete before exiting itself. I believe that the lack of instruction on the use of the waitgroup to ensure goroutines are completed is a serious oversight by the authors of this tutorial.
