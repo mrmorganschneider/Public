@@ -1,12 +1,14 @@
 # Hospital data parsing
 
-## Overview of assignment
+## Created by Morgan Schneider
+
+### Overview of assignment
 
 In this assignment, we were provided with the outcome-of-care-measures.csv file and were required to design three functions to extract and parse the data in different ways. The best function was to find the best hospital for a given state and condition provided by the user. We were to search for the conditions "heart attack", "heart failure", and "pneumonia". The rankhospital function was to find the hosptial in a given state that had the given ranking for the condition passed by the user. For example, if a user searched "CA", "heart failure", "8", the function would return the 8th highest ranked hospital for heart failure outcomes. The last function, rankall, was to search the data and find the hospital with the condition and rank provided for each state, i.e if a user searched for "heart attack" and "5", the function would return the hospital in each state that was ranked 5th for heart attack outcomes.
 
-## Fucntion descriptions
+### Function descriptions
 
-### Commonalities
+#### Commonalities
 
 All of the functions rely on a similar process to read the data from the csv file provided. First, the input data is set to upper or lower case in order to ensure correct matching with the data in the file. From there, a condition checks to ensure a valid outcome has been input by the user. This ensures that no misspelled words are allowed to pass further in the function causing an error. Once the error checking is done, the file is then read for the specific condition in question, reducing the amount of data required to be sorted later in processing.
 
@@ -18,11 +20,11 @@ Once this is complete, the values in the condition column are converted to numer
 
 The functions differ greatly after these steps and are described in further detail below
 
-### best.R
+#### best.R
 
 This function simply returns the first row of data from the data matrix as all data should be properly sorted at this point. It also checks to see if the following values for the condition outcome for the next hospital are equal and binds them to the output matrix if so. This was a requirement of the assignment.
 
-### rankhospital.R
+#### rankhospital.R
 
 After sorting the data as listed in the commonalities section, this function returns the name of the hospital based on the rank of the hospital for the provided condition by the user. For example, if a user searched "CA", "heart failure", "8", the function would return the 8th highest ranked hospital for heart failure outcomes. The function could also return the "best" and "worst" hospitals in the state if these were provided instead of a numeric value.
 
@@ -34,7 +36,7 @@ The above simply assigns a value from 1 to the number of rows in the data frame 
 
 Once the above is complete, the function simply returns the hospital name where the rank is equal to the user input. If the user input "best", it returns the value with rank = 1 and if the user inputs "worst", it returns the last element of the data frame. 
 
-### rankall.R
+#### rankall.R
 
 The first step in this function is to rank all of the hospitals in each state for the condition provided by the user. It does so by looping through the data frame and assigning a value for each row incrementing by 1 each time it increments to a new row. If a new state is detected, the counter is reset to 1 and the incrementing begins again.
 
