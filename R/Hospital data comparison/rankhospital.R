@@ -34,6 +34,8 @@ rankhospital <- function(inpState, outcome, num) {
 
     stateData$Rate <- as.numeric(stateData$Rate) 
 
+    #begin function
+
     stateData <- stateData[order(stateData$Rate, stateData$Hospital),]
 
     stateData$Rank <- c(1:nrow(stateData))

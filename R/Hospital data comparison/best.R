@@ -33,6 +33,8 @@ best <- function(inpState, outcome) {
     names(stateData) <- c("Hospital", "Condition")
     stateData <- filter(stateData, stateData[,2] != "Not Available")
 
+    #begin function
+
     stateData$Condition <- as.numeric(stateData$Condition) 
 
     stateData <- stateData[order(stateData$Condition),]

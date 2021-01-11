@@ -27,6 +27,8 @@ rankall <- function(outcome, ranking = "best") {
     hosData$Rate <- as.numeric(hosData$Rate) 
     hosData <- hosData[order(hosData$State, hosData$Rate, hosData$Hospital),]
 
+    #begin function
+    #Rank all hospitals
     hosData$Rank <- 1
     stateName <- "XX"
     rank <- 1
@@ -43,6 +45,7 @@ rankall <- function(outcome, ranking = "best") {
 
     }
 
+    #select the hospitals with the appropriate ranking
     if(ranking == "best") {return(subset(hosData,Rank == 1))}
 
     else if(ranking == "worst"){
