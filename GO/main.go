@@ -14,4 +14,6 @@ func main() {
 	//mainExercise7()
 	//mainExercise8()
 	///mainExercise9()cannot function outside of go tour due to pic import
+	//mainExercise10()
+	//mainExercise11()
 }
