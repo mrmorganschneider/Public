@@ -414,7 +414,7 @@ Ideas for analysis include: Parsing out keywords and business attributes for sen
 	
 i. Indicate the type of analysis you chose to do:
 
-I am going to try to predict the changes in visitors in Las Vegas based on the number of reviews in a given month
+I am going to try to predict the popularity of the city of Las Vegas on a monthly basis
          
          
 ii. Write 1-2 brief paragraphs on the type of data you will need for your analysis and why you chose that data:
