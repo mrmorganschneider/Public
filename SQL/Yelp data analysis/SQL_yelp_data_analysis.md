@@ -4,6 +4,8 @@
 
 The last assignment for the SQL for Data Science course on coursera.org was to parse a practice dataset from Yelp in multiple different ways, lastly making up our own analysis test and determining how to access and parse the data in the database to support our conclusion. All code blocks and outputs will be tabbed to allow for better readability.
 
+The dataset can be found [here](https://www.yelp.com/dataset)
+
 ## Part 1: Yelp Dataset Profiling and Understanding
 
 1. Profile the data by finding the total number of records for each of the tables below:
@@ -124,7 +126,7 @@ Copy and Paste the Result Below:
 	| Richmond Hill   |         54 |
 
 	
-6. Find the distribution of star ratings to the business in the following cities:
+1. Find the  star ratings of the business in the following cities:
 
 i. Avon
 
