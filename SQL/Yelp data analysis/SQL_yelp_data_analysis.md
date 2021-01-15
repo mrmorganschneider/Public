@@ -7,7 +7,7 @@ The last assignment for the SQL for Data Science course on coursera.org was to p
 ## Part 1: Yelp Dataset Profiling and Understanding
 
 1. Profile the data by finding the total number of records for each of the tables below:
-	
+
     i. Attribute table = 10000
     ii. Business table = 10000
     iii. Category table = 10000
@@ -19,8 +19,6 @@ The last assignment for the SQL for Data Science course on coursera.org was to p
     ix. review table = 10000
     x. tip table = 10000
     xi. user table = 10000
-	
-
 
 2. Find the total distinct records by either the foreign key or primary key for each table. If two foreign keys are listed in the table, please specify which foreign key.
 
@@ -96,9 +94,8 @@ SQL code used to arrive at answer:
 	from business
 	group by city
 	order by city_count desc
-	
-	
-	Copy and Paste the Result Below:
+
+Copy and Paste the Result Below:
 
 	| Las Vegas       |       1561 |
 	| Phoenix         |       1001 |
@@ -395,9 +392,12 @@ i. Indicate the type of analysis you chose to do:
 
 ii. Write 1-2 brief paragraphs on the type of data you will need for your analysis and why you chose that data:
 
-    For this task, I need to calculate the total number of reviews in the city of Las Vegas for each month. This will give me a rough idea of the number of reviews in Las Vegas for a given month.
-    To do this, I will need to parse the dates of the reviews and determine the month in whichthey were given. I will need to calculate this data for each month and add it to a single table for easy comparison. 
-    I will also need a method of sorting that makes comparison easy. To do this, I will add a user defined variable column to each to represent the month numerically for easy sorting.
+    For this task, I need to calculate the total number of reviews in the city of Las Vegas for each month. 
+    This will give me a rough idea of the number of reviews in Las Vegas for a given month.
+    To do this, I will need to parse the dates of the reviews and determine the month in whichthey were given. 
+    I will need to calculate this data for each month and add it to a single table for easy comparison. 
+    I will also need a method of sorting that makes comparison easy. 
+    To do this, I will add a user defined variable column to each to represent the month numerically for easy sorting.
 
 iii. Output of your finished dataset:
 
