@@ -98,3 +98,5 @@ tidy_dataset <- tidy_dataset[, !duplicated(names(tidy_dataset))]
 
 tidy_dataset <- summarize_at(group_by(tidy_dataset, Subject, Activity), #summarize data by subject and activity
                     vars(names(tidy_dataset)[3:458]), funs(mean(.,na.rm=TRUE)))
+
+write.csv(tidy_dataset, file = "tidy_dataset.csv")

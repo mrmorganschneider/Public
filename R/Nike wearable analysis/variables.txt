@@ -1,0 +1,561 @@
+tBodyAcc-mean()-X					Body Acceleration mean()-X
+tBodyAcc-mean()-Y					Body Acceleration mean()-Y
+tBodyAcc-mean()-Z					Body Acceleration mean()-Z
+tBodyAcc-std()-X					Body Acceleration Standard deviation()-X
+tBodyAcc-std()-Y					Body Acceleration Standard deviation()-Y
+tBodyAcc-std()-Z					Body Acceleration Standard deviation()-Z
+tBodyAcc-mad()-X					Body Acceleration Median absolute deviation()-X
+tBodyAcc-mad()-Y					Body Acceleration Median absolute deviation()-Y
+tBodyAcc-mad()-Z					Body Acceleration Median absolute deviation()-Z
+tBodyAcc-max()-X					Body Acceleration max()-X
+tBodyAcc-max()-Y					Body Acceleration max()-Y                                           
+tBodyAcc-max()-Z					Body Acceleration max()-Z
+tBodyAcc-min()-X					Body Acceleration min()-X
+tBodyAcc-min()-Y					Body Acceleration min()-Y
+tBodyAcc-min()-Z					Body Acceleration min()-Z
+tBodyAcc-sma()						Body Acceleration Signal magnitude area()
+tBodyAcc-energy()-X					Body Acceleration energy()-X
+tBodyAcc-energy()-Y					Body Acceleration energy()-Y
+tBodyAcc-energy()-Z					Body Acceleration energy()-Z
+tBodyAcc-iqr()-X					Body Acceleration Interquartile range()-X
+tBodyAcc-iqr()-Y					Body Acceleration Interquartile range()-Y
+tBodyAcc-iqr()-Z					Body Acceleration Interquartile range()-Z
+tBodyAcc-entropy()-X				Body Acceleration entropy()-X
+tBodyAcc-entropy()-Y				Body Acceleration entropy()-Y
+tBodyAcc-entropy()-Z				Body Acceleration entropy()-Z
+tBodyAcc-arCoeff()-X,1				Body Acceleration Autorregresion coefficient()-X,1
+tBodyAcc-arCoeff()-X,2				Body Acceleration Autorregresion coefficient()-X,2
+tBodyAcc-arCoeff()-X,3				Body Acceleration Autorregresion coefficient()-X,3
+tBodyAcc-arCoeff()-X,4				Body Acceleration Autorregresion coefficient()-X,4
+tBodyAcc-arCoeff()-Y,1				Body Acceleration Autorregresion coefficient()-Y,1
+tBodyAcc-arCoeff()-Y,2				Body Acceleration Autorregresion coefficient()-Y,2
+tBodyAcc-arCoeff()-Y,3				Body Acceleration Autorregresion coefficient()-Y,3
+tBodyAcc-arCoeff()-Y,4				Body Acceleration Autorregresion coefficient()-Y,4
+tBodyAcc-arCoeff()-Z,1				Body Acceleration Autorregresion coefficient()-Z,1
+tBodyAcc-arCoeff()-Z,2				Body Acceleration Autorregresion coefficient()-Z,2
+tBodyAcc-arCoeff()-Z,3				Body Acceleration Autorregresion coefficient()-Z,3
+tBodyAcc-arCoeff()-Z,4				Body Acceleration Autorregresion coefficient()-Z,4
+tBodyAcc-correlation()-X,Y			Body Acceleration correlation()-X,Y
+tBodyAcc-correlation()-X,Z			Body Acceleration correlation()-X,Z
+tBodyAcc-correlation()-Y,Z			Body Acceleration correlation()-Y,Z
+tGravityAcc-mean()-X				Gravity Acceleration mean()-X
+tGravityAcc-mean()-Y				Gravity Acceleration mean()-Y
+tGravityAcc-mean()-Z				Gravity Acceleration mean()-Z
+tGravityAcc-std()-X					Gravity Acceleration Standard deviation()-X
+tGravityAcc-std()-Y					Gravity Acceleration Standard deviation()-Y
+tGravityAcc-std()-Z					Gravity Acceleration Standard deviation()-Z
+tGravityAcc-mad()-X					Gravity Acceleration Median absolute deviation()-X
+tGravityAcc-mad()-Y					Gravity Acceleration Median absolute deviation()-Y
+tGravityAcc-mad()-Z					Gravity Acceleration Median absolute deviation()-Z
+tGravityAcc-max()-X					Gravity Acceleration max()-X
+tGravityAcc-max()-Y					Gravity Acceleration max()-Y
+tGravityAcc-max()-Z					Gravity Acceleration max()-Z
+tGravityAcc-min()-X					Gravity Acceleration min()-X
+tGravityAcc-min()-Y					Gravity Acceleration min()-Y
+tGravityAcc-min()-Z					Gravity Acceleration min()-Z
+tGravityAcc-sma()					Gravity Acceleration Signal magnitude area()
+tGravityAcc-energy()-X				Gravity Acceleration energy()-X
+tGravityAcc-energy()-Y				Gravity Acceleration energy()-Y
+tGravityAcc-energy()-Z				Gravity Acceleration energy()-Z
+tGravityAcc-iqr()-X					Gravity Acceleration Interquartile range()-X
+tGravityAcc-iqr()-Y					Gravity Acceleration Interquartile range()-Y
+tGravityAcc-iqr()-Z					Gravity Acceleration Interquartile range()-Z
+tGravityAcc-entropy()-X				Gravity Acceleration entropy()-X
+tGravityAcc-entropy()-Y				Gravity Acceleration entropy()-Y
+tGravityAcc-entropy()-Z				Gravity Acceleration entropy()-Z
+tGravityAcc-arCoeff()-X,1			Gravity Acceleration Autorregresion coefficient()-X,1
+tGravityAcc-arCoeff()-X,2			Gravity Acceleration Autorregresion coefficient()-X,2
+tGravityAcc-arCoeff()-X,3			Gravity Acceleration Autorregresion coefficient()-X,3
+tGravityAcc-arCoeff()-X,4			Gravity Acceleration Autorregresion coefficient()-X,4
+tGravityAcc-arCoeff()-Y,1			Gravity Acceleration Autorregresion coefficient()-Y,1
+tGravityAcc-arCoeff()-Y,2			Gravity Acceleration Autorregresion coefficient()-Y,2
+tGravityAcc-arCoeff()-Y,3			Gravity Acceleration Autorregresion coefficient()-Y,3
+tGravityAcc-arCoeff()-Y,4			Gravity Acceleration Autorregresion coefficient()-Y,4
+tGravityAcc-arCoeff()-Z,1			Gravity Acceleration Autorregresion coefficient()-Z,1
+tGravityAcc-arCoeff()-Z,2			Gravity Acceleration Autorregresion coefficient()-Z,2
+tGravityAcc-arCoeff()-Z,3			Gravity Acceleration Autorregresion coefficient()-Z,3
+tGravityAcc-arCoeff()-Z,4			Gravity Acceleration Autorregresion coefficient()-Z,4
+tGravityAcc-correlation()-X,Y		Gravity Acceleration correlation()-X,Y                              
+tGravityAcc-correlation()-X,Z		Gravity Acceleration correlation()-X,Z
+tGravityAcc-correlation()-Y,Z		Gravity Acceleration correlation()-Y,Z
+tBodyAccJerk-mean()-X				Body Acceleration Jerk mean()-X
+tBodyAccJerk-mean()-Y				Body Acceleration Jerk mean()-Y
+tBodyAccJerk-mean()-Z				Body Acceleration Jerk mean()-Z
+tBodyAccJerk-std()-X				Body Acceleration Jerk Standard deviation()-X
+tBodyAccJerk-std()-Y				Body Acceleration Jerk Standard deviation()-Y
+tBodyAccJerk-std()-Z				Body Acceleration Jerk Standard deviation()-Z
+tBodyAccJerk-mad()-X				Body Acceleration Jerk Median absolute deviation()-X
+tBodyAccJerk-mad()-Y				Body Acceleration Jerk Median absolute deviation()-Y
+tBodyAccJerk-mad()-Z				Body Acceleration Jerk Median absolute deviation()-Z
+tBodyAccJerk-max()-X				Body Acceleration Jerk max()-X
+tBodyAccJerk-max()-Y				Body Acceleration Jerk max()-Y
+tBodyAccJerk-max()-Z				Body Acceleration Jerk max()-Z
+tBodyAccJerk-min()-X				Body Acceleration Jerk min()-X
+tBodyAccJerk-min()-Y				Body Acceleration Jerk min()-Y
+tBodyAccJerk-min()-Z				Body Acceleration Jerk min()-Z
+tBodyAccJerk-sma()					Body Acceleration Jerk Signal magnitude area()
+tBodyAccJerk-energy()-X				Body Acceleration Jerk energy()-X
+tBodyAccJerk-energy()-Y				Body Acceleration Jerk energy()-Y
+tBodyAccJerk-energy()-Z				Body Acceleration Jerk energy()-Z
+tBodyAccJerk-iqr()-X				Body Acceleration Jerk Interquartile range()-X
+tBodyAccJerk-iqr()-Y				Body Acceleration Jerk Interquartile range()-Y
+tBodyAccJerk-iqr()-Z				Body Acceleration Jerk Interquartile range()-Z
+tBodyAccJerk-entropy()-X			Body Acceleration Jerk entropy()-X
+tBodyAccJerk-entropy()-Y			Body Acceleration Jerk entropy()-Y
+tBodyAccJerk-entropy()-Z			Body Acceleration Jerk entropy()-Z
+tBodyAccJerk-arCoeff()-X,1			Body Acceleration Jerk Autorregresion coefficient()-X,1
+tBodyAccJerk-arCoeff()-X,2			Body Acceleration Jerk Autorregresion coefficient()-X,2
+tBodyAccJerk-arCoeff()-X,3			Body Acceleration Jerk Autorregresion coefficient()-X,3
+tBodyAccJerk-arCoeff()-X,4			Body Acceleration Jerk Autorregresion coefficient()-X,4
+tBodyAccJerk-arCoeff()-Y,1			Body Acceleration Jerk Autorregresion coefficient()-Y,1
+tBodyAccJerk-arCoeff()-Y,2			Body Acceleration Jerk Autorregresion coefficient()-Y,2
+tBodyAccJerk-arCoeff()-Y,3			Body Acceleration Jerk Autorregresion coefficient()-Y,3
+tBodyAccJerk-arCoeff()-Y,4			Body Acceleration Jerk Autorregresion coefficient()-Y,4
+tBodyAccJerk-arCoeff()-Z,1			Body Acceleration Jerk Autorregresion coefficient()-Z,1
+tBodyAccJerk-arCoeff()-Z,2			Body Acceleration Jerk Autorregresion coefficient()-Z,2
+tBodyAccJerk-arCoeff()-Z,3			Body Acceleration Jerk Autorregresion coefficient()-Z,3
+tBodyAccJerk-arCoeff()-Z,4			Body Acceleration Jerk Autorregresion coefficient()-Z,4
+tBodyAccJerk-correlation()-X,Y		Body Acceleration Jerk correlation()-X,Y
+tBodyAccJerk-correlation()-X,Z		Body Acceleration Jerk correlation()-X,Z
+tBodyAccJerk-correlation()-Y,Z		Body Acceleration Jerk correlation()-Y,Z
+tBodyGyro-mean()-X					Body Gyro mean()-X
+tBodyGyro-mean()-Y					Body Gyro mean()-Y
+tBodyGyro-mean()-Z					Body Gyro mean()-Z
+tBodyGyro-std()-X					Body Gyro Standard deviation()-X
+tBodyGyro-std()-Y					Body Gyro Standard deviation()-Y
+tBodyGyro-std()-Z					Body Gyro Standard deviation()-Z
+tBodyGyro-mad()-X					Body Gyro Median absolute deviation()-X
+tBodyGyro-mad()-Y					Body Gyro Median absolute deviation()-Y
+tBodyGyro-mad()-Z					Body Gyro Median absolute deviation()-Z
+tBodyGyro-max()-X					Body Gyro max()-X
+tBodyGyro-max()-Y					Body Gyro max()-Y
+tBodyGyro-max()-Z					Body Gyro max()-Z
+tBodyGyro-min()-X					Body Gyro min()-X
+tBodyGyro-min()-Y					Body Gyro min()-Y
+tBodyGyro-min()-Z					Body Gyro min()-Z
+tBodyGyro-sma()						Body Gyro Signal magnitude area()
+tBodyGyro-energy()-X				Body Gyro energy()-X
+tBodyGyro-energy()-Y				Body Gyro energy()-Y
+tBodyGyro-energy()-Z				Body Gyro energy()-Z
+tBodyGyro-iqr()-X					Body Gyro Interquartile range()-X
+tBodyGyro-iqr()-Y					Body Gyro Interquartile range()-Y
+tBodyGyro-iqr()-Z					Body Gyro Interquartile range()-Z
+tBodyGyro-entropy()-X				Body Gyro entropy()-X
+tBodyGyro-entropy()-Y				Body Gyro entropy()-Y
+tBodyGyro-entropy()-Z				Body Gyro entropy()-Z
+tBodyGyro-arCoeff()-X,1				Body Gyro Autorregresion coefficient()-X,1
+tBodyGyro-arCoeff()-X,2				Body Gyro Autorregresion coefficient()-X,2
+tBodyGyro-arCoeff()-X,3				Body Gyro Autorregresion coefficient()-X,3
+tBodyGyro-arCoeff()-X,4				Body Gyro Autorregresion coefficient()-X,4
+tBodyGyro-arCoeff()-Y,1				Body Gyro Autorregresion coefficient()-Y,1
+tBodyGyro-arCoeff()-Y,2				Body Gyro Autorregresion coefficient()-Y,2
+tBodyGyro-arCoeff()-Y,3				Body Gyro Autorregresion coefficient()-Y,3
+tBodyGyro-arCoeff()-Y,4				Body Gyro Autorregresion coefficient()-Y,4
+tBodyGyro-arCoeff()-Z,1				Body Gyro Autorregresion coefficient()-Z,1
+tBodyGyro-arCoeff()-Z,2				Body Gyro Autorregresion coefficient()-Z,2
+tBodyGyro-arCoeff()-Z,3				Body Gyro Autorregresion coefficient()-Z,3
+tBodyGyro-arCoeff()-Z,4				Body Gyro Autorregresion coefficient()-Z,4
+tBodyGyro-correlation()-X,Y			Body Gyro correlation()-X,Y
+tBodyGyro-correlation()-X,Z			Body Gyro correlation()-X,Z
+tBodyGyro-correlation()-Y,Z			Body Gyro correlation()-Y,Z
+tBodyGyroJerk-mean()-X				Body Gyro Jerk mean()-X
+tBodyGyroJerk-mean()-Y				Body Gyro Jerk mean()-Y
+tBodyGyroJerk-mean()-Z				Body Gyro Jerk mean()-Z
+tBodyGyroJerk-std()-X				Body Gyro Jerk Standard deviation()-X
+tBodyGyroJerk-std()-Y				Body Gyro Jerk Standard deviation()-Y
+tBodyGyroJerk-std()-Z				Body Gyro Jerk Standard deviation()-Z                               
+tBodyGyroJerk-mad()-X				Body Gyro Jerk Median absolute deviation()-X
+tBodyGyroJerk-mad()-Y				Body Gyro Jerk Median absolute deviation()-Y
+tBodyGyroJerk-mad()-Z				Body Gyro Jerk Median absolute deviation()-Z
+tBodyGyroJerk-max()-X				Body Gyro Jerk max()-X
+tBodyGyroJerk-max()-Y				Body Gyro Jerk max()-Y
+tBodyGyroJerk-max()-Z				Body Gyro Jerk max()-Z
+tBodyGyroJerk-min()-X				Body Gyro Jerk min()-X
+tBodyGyroJerk-min()-Y				Body Gyro Jerk min()-Y
+tBodyGyroJerk-min()-Z				Body Gyro Jerk min()-Z
+tBodyGyroJerk-sma()					Body Gyro Jerk Signal magnitude area()
+tBodyGyroJerk-energy()-X			Body Gyro Jerk energy()-X
+tBodyGyroJerk-energy()-Y			Body Gyro Jerk energy()-Y
+tBodyGyroJerk-energy()-Z			Body Gyro Jerk energy()-Z
+tBodyGyroJerk-iqr()-X				Body Gyro Jerk Interquartile range()-X
+tBodyGyroJerk-iqr()-Y				Body Gyro Jerk Interquartile range()-Y
+tBodyGyroJerk-iqr()-Z				Body Gyro Jerk Interquartile range()-Z
+tBodyGyroJerk-entropy()-X			Body Gyro Jerk entropy()-X
+tBodyGyroJerk-entropy()-Y			Body Gyro Jerk entropy()-Y
+tBodyGyroJerk-entropy()-Z			Body Gyro Jerk entropy()-Z
+tBodyGyroJerk-arCoeff()-X,1			Body Gyro Jerk Autorregresion coefficient()-X,1
+tBodyGyroJerk-arCoeff()-X,2			Body Gyro Jerk Autorregresion coefficient()-X,2
+tBodyGyroJerk-arCoeff()-X,3			Body Gyro Jerk Autorregresion coefficient()-X,3
+tBodyGyroJerk-arCoeff()-X,4			Body Gyro Jerk Autorregresion coefficient()-X,4
+tBodyGyroJerk-arCoeff()-Y,1			Body Gyro Jerk Autorregresion coefficient()-Y,1
+tBodyGyroJerk-arCoeff()-Y,2			Body Gyro Jerk Autorregresion coefficient()-Y,2
+tBodyGyroJerk-arCoeff()-Y,3			Body Gyro Jerk Autorregresion coefficient()-Y,3
+tBodyGyroJerk-arCoeff()-Y,4			Body Gyro Jerk Autorregresion coefficient()-Y,4
+tBodyGyroJerk-arCoeff()-Z,1			Body Gyro Jerk Autorregresion coefficient()-Z,1
+tBodyGyroJerk-arCoeff()-Z,2			Body Gyro Jerk Autorregresion coefficient()-Z,2
+tBodyGyroJerk-arCoeff()-Z,3			Body Gyro Jerk Autorregresion coefficient()-Z,3
+tBodyGyroJerk-arCoeff()-Z,4			Body Gyro Jerk Autorregresion coefficient()-Z,4
+tBodyGyroJerk-correlation()-X,Y		Body Gyro Jerk correlation()-X,Y
+tBodyGyroJerk-correlation()-X,Z		Body Gyro Jerk correlation()-X,Z
+tBodyGyroJerk-correlation()-Y,Z		Body Gyro Jerk correlation()-Y,Z
+tBodyAccMag-mean()					Body Acceleration Magnitute mean()
+tBodyAccMag-std()					Body Acceleration Magnitute Standard deviation()                    
+tBodyAccMag-mad()					Body Acceleration Magnitute Median absolute deviation()
+tBodyAccMag-max()					Body Acceleration Magnitute max()
+tBodyAccMag-min()					Body Acceleration Magnitute min()
+tBodyAccMag-sma()					Body Acceleration Magnitute Signal magnitude area()
+tBodyAccMag-energy()				Body Acceleration Magnitute energy()
+tBodyAccMag-iqr()					Body Acceleration Magnitute Interquartile range()
+tBodyAccMag-entropy()				Body Acceleration Magnitute entropy()
+tBodyAccMag-arCoeff()1				Body Acceleration Magnitute Autorregresion coefficient()1
+tBodyAccMag-arCoeff()2				Body Acceleration Magnitute Autorregresion coefficient()2
+tBodyAccMag-arCoeff()3				Body Acceleration Magnitute Autorregresion coefficient()3
+tBodyAccMag-arCoeff()4				Body Acceleration Magnitute Autorregresion coefficient()4
+tGravityAccMag-mean()				Gravity Acceleration Magnitute mean()
+tGravityAccMag-std()				Gravity Acceleration Magnitute Standard deviation()
+tGravityAccMag-mad()				Gravity Acceleration Magnitute Median absolute deviation()
+tGravityAccMag-max()				Gravity Acceleration Magnitute max()
+tGravityAccMag-min()				Gravity Acceleration Magnitute min()
+tGravityAccMag-sma()				Gravity Acceleration Magnitute Signal magnitude area()
+tGravityAccMag-energy()				Gravity Acceleration Magnitute energy()
+tGravityAccMag-iqr()				Gravity Acceleration Magnitute Interquartile range()                
+tGravityAccMag-entropy()			Gravity Acceleration Magnitute entropy()
+tGravityAccMag-arCoeff()1			Gravity Acceleration Magnitute Autorregresion coefficient()1
+tGravityAccMag-arCoeff()2			Gravity Acceleration Magnitute Autorregresion coefficient()2        
+tGravityAccMag-arCoeff()3			Gravity Acceleration Magnitute Autorregresion coefficient()3
+tGravityAccMag-arCoeff()4			Gravity Acceleration Magnitute Autorregresion coefficient()4        
+tBodyAccJerkMag-mean()				Body Acceleration Jerk Magnitute mean()
+tBodyAccJerkMag-std()				Body Acceleration Jerk Magnitute Standard deviation()
+tBodyAccJerkMag-mad()				Body Acceleration Jerk Magnitute Median absolute deviation()
+tBodyAccJerkMag-max()				Body Acceleration Jerk Magnitute max()
+tBodyAccJerkMag-min()				Body Acceleration Jerk Magnitute min()
+tBodyAccJerkMag-sma()				Body Acceleration Jerk Magnitute Signal magnitude area()
+tBodyAccJerkMag-energy()			Body Acceleration Jerk Magnitute energy()
+tBodyAccJerkMag-iqr()				Body Acceleration Jerk Magnitute Interquartile range()
+tBodyAccJerkMag-entropy()			Body Acceleration Jerk Magnitute entropy()
+tBodyAccJerkMag-arCoeff()1			Body Acceleration Jerk Magnitute Autorregresion coefficient()1
+tBodyAccJerkMag-arCoeff()2			Body Acceleration Jerk Magnitute Autorregresion coefficient()2      
+tBodyAccJerkMag-arCoeff()3			Body Acceleration Jerk Magnitute Autorregresion coefficient()3
+tBodyAccJerkMag-arCoeff()4			Body Acceleration Jerk Magnitute Autorregresion coefficient()4      
+tBodyGyroMag-mean()					Body Gyro Magnitute mean()
+tBodyGyroMag-std()					Body Gyro Magnitute Standard deviation()
+tBodyGyroMag-mad()					Body Gyro Magnitute Median absolute deviation()                     
+tBodyGyroMag-max()					Body Gyro Magnitute max()
+tBodyGyroMag-min()					Body Gyro Magnitute min()
+tBodyGyroMag-sma()					Body Gyro Magnitute Signal magnitude area()
+tBodyGyroMag-energy()				Body Gyro Magnitute energy()
+tBodyGyroMag-iqr()					Body Gyro Magnitute Interquartile range()
+tBodyGyroMag-entropy()				Body Gyro Magnitute entropy()
+tBodyGyroMag-arCoeff()1				Body Gyro Magnitute Autorregresion coefficient()1
+tBodyGyroMag-arCoeff()2				Body Gyro Magnitute Autorregresion coefficient()2
+tBodyGyroMag-arCoeff()3				Body Gyro Magnitute Autorregresion coefficient()3
+tBodyGyroMag-arCoeff()4				Body Gyro Magnitute Autorregresion coefficient()4
+tBodyGyroJerkMag-mean()				Body Gyro Jerk Magnitute mean()
+tBodyGyroJerkMag-std()				Body Gyro Jerk Magnitute Standard deviation()
+tBodyGyroJerkMag-mad()				Body Gyro Jerk Magnitute Median absolute deviation()
+tBodyGyroJerkMag-max()				Body Gyro Jerk Magnitute max()
+tBodyGyroJerkMag-min()				Body Gyro Jerk Magnitute min()
+tBodyGyroJerkMag-sma()				Body Gyro Jerk Magnitute Signal magnitude area()
+tBodyGyroJerkMag-energy()			Body Gyro Jerk Magnitute energy()
+tBodyGyroJerkMag-iqr()				Body Gyro Jerk Magnitute Interquartile range()
+tBodyGyroJerkMag-entropy()			Body Gyro Jerk Magnitute entropy()
+tBodyGyroJerkMag-arCoeff()1			Body Gyro Jerk Magnitute Autorregresion coefficient()1
+tBodyGyroJerkMag-arCoeff()2			Body Gyro Jerk Magnitute Autorregresion coefficient()2
+tBodyGyroJerkMag-arCoeff()3			Body Gyro Jerk Magnitute Autorregresion coefficient()3
+tBodyGyroJerkMag-arCoeff()4			Body Gyro Jerk Magnitute Autorregresion coefficient()4
+fBodyAcc-mean()-X					Fourier Body Acceleration mean()-X
+fBodyAcc-mean()-Y					Fourier Body Acceleration mean()-Y
+fBodyAcc-mean()-Z					Fourier Body Acceleration mean()-Z
+fBodyAcc-std()-X					Fourier Body Acceleration Standard deviation()-X
+fBodyAcc-std()-Y					Fourier Body Acceleration Standard deviation()-Y
+fBodyAcc-std()-Z					Fourier Body Acceleration Standard deviation()-Z
+fBodyAcc-mad()-X					Fourier Body Acceleration Median absolute deviation()-X
+fBodyAcc-mad()-Y					Fourier Body Acceleration Median absolute deviation()-Y
+fBodyAcc-mad()-Z					Fourier Body Acceleration Median absolute deviation()-Z
+fBodyAcc-max()-X					Fourier Body Acceleration max()-X
+fBodyAcc-max()-Y					Fourier Body Acceleration max()-Y
+fBodyAcc-max()-Z					Fourier Body Acceleration max()-Z
+fBodyAcc-min()-X					Fourier Body Acceleration min()-X
+fBodyAcc-min()-Y					Fourier Body Acceleration min()-Y
+fBodyAcc-min()-Z					Fourier Body Acceleration min()-Z
+fBodyAcc-sma()						Fourier Body Acceleration Signal magnitude area()
+fBodyAcc-energy()-X					Fourier Body Acceleration energy()-X
+fBodyAcc-energy()-Y					Fourier Body Acceleration energy()-Y
+fBodyAcc-energy()-Z					Fourier Body Acceleration energy()-Z
+fBodyAcc-iqr()-X					Fourier Body Acceleration Interquartile range()-X
+fBodyAcc-iqr()-Y					Fourier Body Acceleration Interquartile range()-Y
+fBodyAcc-iqr()-Z					Fourier Body Acceleration Interquartile range()-Z
+fBodyAcc-entropy()-X				Fourier Body Acceleration entropy()-X
+fBodyAcc-entropy()-Y				Fourier Body Acceleration entropy()-Y
+fBodyAcc-entropy()-Z				Fourier Body Acceleration entropy()-Z
+fBodyAcc-maxInds-X					Fourier Body Acceleration Max index-X
+fBodyAcc-maxInds-Y					Fourier Body Acceleration Max index-Y
+fBodyAcc-maxInds-Z					Fourier Body Acceleration Max index-Z
+fBodyAcc-meanFreq()-X				Fourier Body Acceleration meanFreq()-X
+fBodyAcc-meanFreq()-Y				Fourier Body Acceleration meanFreq()-Y
+fBodyAcc-meanFreq()-Z				Fourier Body Acceleration meanFreq()-Z
+fBodyAcc-skewness()-X				Fourier Body Acceleration skewness()-X
+fBodyAcc-kurtosis()-X				Fourier Body Acceleration kurtosis()-X
+fBodyAcc-skewness()-Y				Fourier Body Acceleration skewness()-Y
+fBodyAcc-kurtosis()-Y				Fourier Body Acceleration kurtosis()-Y
+fBodyAcc-skewness()-Z				Fourier Body Acceleration skewness()-Z
+fBodyAcc-kurtosis()-Z				Fourier Body Acceleration kurtosis()-Z
+fBodyAcc-bandsEnergy()-1,8			Fourier Body Acceleration bandsEnergy()-1,8
+fBodyAcc-bandsEnergy()-9,16			Fourier Body Acceleration bandsEnergy()-9,16
+fBodyAcc-bandsEnergy()-17,24		Fourier Body Acceleration bandsEnergy()-17,24
+fBodyAcc-bandsEnergy()-25,32		Fourier Body Acceleration bandsEnergy()-25,32
+fBodyAcc-bandsEnergy()-33,40		Fourier Body Acceleration bandsEnergy()-33,40
+fBodyAcc-bandsEnergy()-41,48		Fourier Body Acceleration bandsEnergy()-41,48
+fBodyAcc-bandsEnergy()-49,56		Fourier Body Acceleration bandsEnergy()-49,56
+fBodyAcc-bandsEnergy()-57,64		Fourier Body Acceleration bandsEnergy()-57,64
+fBodyAcc-bandsEnergy()-1,16			Fourier Body Acceleration bandsEnergy()-1,16
+fBodyAcc-bandsEnergy()-17,32		Fourier Body Acceleration bandsEnergy()-17,32
+fBodyAcc-bandsEnergy()-33,48		Fourier Body Acceleration bandsEnergy()-33,48
+fBodyAcc-bandsEnergy()-49,64		Fourier Body Acceleration bandsEnergy()-49,64
+fBodyAcc-bandsEnergy()-1,24			Fourier Body Acceleration bandsEnergy()-1,24
+fBodyAcc-bandsEnergy()-25,48		Fourier Body Acceleration bandsEnergy()-25,48
+fBodyAcc-bandsEnergy()-1,8			Fourier Body Acceleration bandsEnergy()-1,8
+fBodyAcc-bandsEnergy()-9,16			Fourier Body Acceleration bandsEnergy()-9,16
+fBodyAcc-bandsEnergy()-17,24		Fourier Body Acceleration bandsEnergy()-17,24
+fBodyAcc-bandsEnergy()-25,32		Fourier Body Acceleration bandsEnergy()-25,32
+fBodyAcc-bandsEnergy()-33,40		Fourier Body Acceleration bandsEnergy()-33,40
+fBodyAcc-bandsEnergy()-41,48		Fourier Body Acceleration bandsEnergy()-41,48
+fBodyAcc-bandsEnergy()-49,56		Fourier Body Acceleration bandsEnergy()-49,56
+fBodyAcc-bandsEnergy()-57,64		Fourier Body Acceleration bandsEnergy()-57,64
+fBodyAcc-bandsEnergy()-1,16			Fourier Body Acceleration bandsEnergy()-1,16
+fBodyAcc-bandsEnergy()-17,32		Fourier Body Acceleration bandsEnergy()-17,32
+fBodyAcc-bandsEnergy()-33,48		Fourier Body Acceleration bandsEnergy()-33,48
+fBodyAcc-bandsEnergy()-49,64		Fourier Body Acceleration bandsEnergy()-49,64
+fBodyAcc-bandsEnergy()-1,24			Fourier Body Acceleration bandsEnergy()-1,24
+fBodyAcc-bandsEnergy()-25,48		Fourier Body Acceleration bandsEnergy()-25,48
+fBodyAcc-bandsEnergy()-1,8			Fourier Body Acceleration bandsEnergy()-1,8
+fBodyAcc-bandsEnergy()-9,16			Fourier Body Acceleration bandsEnergy()-9,16
+fBodyAcc-bandsEnergy()-17,24		Fourier Body Acceleration bandsEnergy()-17,24
+fBodyAcc-bandsEnergy()-25,32		Fourier Body Acceleration bandsEnergy()-25,32
+fBodyAcc-bandsEnergy()-33,40		Fourier Body Acceleration bandsEnergy()-33,40
+fBodyAcc-bandsEnergy()-41,48		Fourier Body Acceleration bandsEnergy()-41,48
+fBodyAcc-bandsEnergy()-49,56		Fourier Body Acceleration bandsEnergy()-49,56
+fBodyAcc-bandsEnergy()-57,64		Fourier Body Acceleration bandsEnergy()-57,64
+fBodyAcc-bandsEnergy()-1,16			Fourier Body Acceleration bandsEnergy()-1,16
+fBodyAcc-bandsEnergy()-17,32		Fourier Body Acceleration bandsEnergy()-17,32
+fBodyAcc-bandsEnergy()-33,48		Fourier Body Acceleration bandsEnergy()-33,48
+fBodyAcc-bandsEnergy()-49,64		Fourier Body Acceleration bandsEnergy()-49,64
+fBodyAcc-bandsEnergy()-1,24			Fourier Body Acceleration bandsEnergy()-1,24
+fBodyAcc-bandsEnergy()-25,48		Fourier Body Acceleration bandsEnergy()-25,48
+fBodyAccJerk-mean()-X				Fourier Body Acceleration Jerk mean()-X
+fBodyAccJerk-mean()-Y				Fourier Body Acceleration Jerk mean()-Y
+fBodyAccJerk-mean()-Z				Fourier Body Acceleration Jerk mean()-Z
+fBodyAccJerk-std()-X				Fourier Body Acceleration Jerk Standard deviation()-X
+fBodyAccJerk-std()-Y				Fourier Body Acceleration Jerk Standard deviation()-Y               
+fBodyAccJerk-std()-Z				Fourier Body Acceleration Jerk Standard deviation()-Z
+fBodyAccJerk-mad()-X				Fourier Body Acceleration Jerk Median absolute deviation()-X
+fBodyAccJerk-mad()-Y				Fourier Body Acceleration Jerk Median absolute deviation()-Y        
+fBodyAccJerk-mad()-Z				Fourier Body Acceleration Jerk Median absolute deviation()-Z
+fBodyAccJerk-max()-X				Fourier Body Acceleration Jerk max()-X
+fBodyAccJerk-max()-Y				Fourier Body Acceleration Jerk max()-Y
+fBodyAccJerk-max()-Z				Fourier Body Acceleration Jerk max()-Z
+fBodyAccJerk-min()-X				Fourier Body Acceleration Jerk min()-X
+fBodyAccJerk-min()-Y				Fourier Body Acceleration Jerk min()-Y
+fBodyAccJerk-min()-Z				Fourier Body Acceleration Jerk min()-Z
+fBodyAccJerk-sma()					Fourier Body Acceleration Jerk Signal magnitude area()
+fBodyAccJerk-energy()-X				Fourier Body Acceleration Jerk energy()-X
+fBodyAccJerk-energy()-Y				Fourier Body Acceleration Jerk energy()-Y
+fBodyAccJerk-energy()-Z				Fourier Body Acceleration Jerk energy()-Z
+fBodyAccJerk-iqr()-X				Fourier Body Acceleration Jerk Interquartile range()-X
+fBodyAccJerk-iqr()-Y				Fourier Body Acceleration Jerk Interquartile range()-Y
+fBodyAccJerk-iqr()-Z				Fourier Body Acceleration Jerk Interquartile range()-Z              
+fBodyAccJerk-entropy()-X			Fourier Body Acceleration Jerk entropy()-X
+fBodyAccJerk-entropy()-Y			Fourier Body Acceleration Jerk entropy()-Y
+fBodyAccJerk-entropy()-Z			Fourier Body Acceleration Jerk entropy()-Z
+fBodyAccJerk-maxInds-X				Fourier Body Acceleration Jerk Max index-X
+fBodyAccJerk-maxInds-Y				Fourier Body Acceleration Jerk Max index-Y
+fBodyAccJerk-maxInds-Z				Fourier Body Acceleration Jerk Max index-Z
+fBodyAccJerk-meanFreq()-X			Fourier Body Acceleration Jerk meanFreq()-X
+fBodyAccJerk-meanFreq()-Y			Fourier Body Acceleration Jerk meanFreq()-Y
+fBodyAccJerk-meanFreq()-Z			Fourier Body Acceleration Jerk meanFreq()-Z
+fBodyAccJerk-skewness()-X			Fourier Body Acceleration Jerk skewness()-X
+fBodyAccJerk-kurtosis()-X			Fourier Body Acceleration Jerk kurtosis()-X
+fBodyAccJerk-skewness()-Y			Fourier Body Acceleration Jerk skewness()-Y
+fBodyAccJerk-kurtosis()-Y			Fourier Body Acceleration Jerk kurtosis()-Y
+fBodyAccJerk-skewness()-Z			Fourier Body Acceleration Jerk skewness()-Z
+fBodyAccJerk-kurtosis()-Z			Fourier Body Acceleration Jerk kurtosis()-Z
+fBodyAccJerk-bandsEnergy()-1,8		Fourier Body Acceleration Jerk bandsEnergy()-1,8
+fBodyAccJerk-bandsEnergy()-9,16		Fourier Body Acceleration Jerk bandsEnergy()-9,16
+fBodyAccJerk-bandsEnergy()-17,24	Fourier Body Acceleration Jerk bandsEnergy()-17,24
+fBodyAccJerk-bandsEnergy()-25,32	Fourier Body Acceleration Jerk bandsEnergy()-25,32                  
+fBodyAccJerk-bandsEnergy()-33,40	Fourier Body Acceleration Jerk bandsEnergy()-33,40
+fBodyAccJerk-bandsEnergy()-41,48	Fourier Body Acceleration Jerk bandsEnergy()-41,48
+fBodyAccJerk-bandsEnergy()-49,56	Fourier Body Acceleration Jerk bandsEnergy()-49,56
+fBodyAccJerk-bandsEnergy()-57,64	Fourier Body Acceleration Jerk bandsEnergy()-57,64
+fBodyAccJerk-bandsEnergy()-1,16		Fourier Body Acceleration Jerk bandsEnergy()-1,16
+fBodyAccJerk-bandsEnergy()-17,32	Fourier Body Acceleration Jerk bandsEnergy()-17,32
+fBodyAccJerk-bandsEnergy()-33,48	Fourier Body Acceleration Jerk bandsEnergy()-33,48
+fBodyAccJerk-bandsEnergy()-49,64	Fourier Body Acceleration Jerk bandsEnergy()-49,64
+fBodyAccJerk-bandsEnergy()-1,24		Fourier Body Acceleration Jerk bandsEnergy()-1,24
+fBodyAccJerk-bandsEnergy()-25,48	Fourier Body Acceleration Jerk bandsEnergy()-25,48
+fBodyAccJerk-bandsEnergy()-1,8		Fourier Body Acceleration Jerk bandsEnergy()-1,8
+fBodyAccJerk-bandsEnergy()-9,16		Fourier Body Acceleration Jerk bandsEnergy()-9,16
+fBodyAccJerk-bandsEnergy()-17,24	Fourier Body Acceleration Jerk bandsEnergy()-17,24
+fBodyAccJerk-bandsEnergy()-25,32	Fourier Body Acceleration Jerk bandsEnergy()-25,32
+fBodyAccJerk-bandsEnergy()-33,40	Fourier Body Acceleration Jerk bandsEnergy()-33,40
+fBodyAccJerk-bandsEnergy()-41,48	Fourier Body Acceleration Jerk bandsEnergy()-41,48                  
+fBodyAccJerk-bandsEnergy()-49,56	Fourier Body Acceleration Jerk bandsEnergy()-49,56
+fBodyAccJerk-bandsEnergy()-57,64	Fourier Body Acceleration Jerk bandsEnergy()-57,64
+fBodyAccJerk-bandsEnergy()-1,16		Fourier Body Acceleration Jerk bandsEnergy()-1,16
+fBodyAccJerk-bandsEnergy()-17,32	Fourier Body Acceleration Jerk bandsEnergy()-17,32
+fBodyAccJerk-bandsEnergy()-33,48	Fourier Body Acceleration Jerk bandsEnergy()-33,48
+fBodyAccJerk-bandsEnergy()-49,64	Fourier Body Acceleration Jerk bandsEnergy()-49,64
+fBodyAccJerk-bandsEnergy()-1,24		Fourier Body Acceleration Jerk bandsEnergy()-1,24
+fBodyAccJerk-bandsEnergy()-25,48	Fourier Body Acceleration Jerk bandsEnergy()-25,48
+fBodyAccJerk-bandsEnergy()-1,8		Fourier Body Acceleration Jerk bandsEnergy()-1,8
+fBodyAccJerk-bandsEnergy()-9,16		Fourier Body Acceleration Jerk bandsEnergy()-9,16
+fBodyAccJerk-bandsEnergy()-17,24	Fourier Body Acceleration Jerk bandsEnergy()-17,24
+fBodyAccJerk-bandsEnergy()-25,32	Fourier Body Acceleration Jerk bandsEnergy()-25,32
+fBodyAccJerk-bandsEnergy()-33,40	Fourier Body Acceleration Jerk bandsEnergy()-33,40
+fBodyAccJerk-bandsEnergy()-41,48	Fourier Body Acceleration Jerk bandsEnergy()-41,48
+fBodyAccJerk-bandsEnergy()-49,56	Fourier Body Acceleration Jerk bandsEnergy()-49,56
+fBodyAccJerk-bandsEnergy()-57,64	Fourier Body Acceleration Jerk bandsEnergy()-57,64
+fBodyAccJerk-bandsEnergy()-1,16		Fourier Body Acceleration Jerk bandsEnergy()-1,16
+fBodyAccJerk-bandsEnergy()-17,32	Fourier Body Acceleration Jerk bandsEnergy()-17,32
+fBodyAccJerk-bandsEnergy()-33,48	Fourier Body Acceleration Jerk bandsEnergy()-33,48
+fBodyAccJerk-bandsEnergy()-49,64	Fourier Body Acceleration Jerk bandsEnergy()-49,64
+fBodyAccJerk-bandsEnergy()-1,24		Fourier Body Acceleration Jerk bandsEnergy()-1,24
+fBodyAccJerk-bandsEnergy()-25,48	Fourier Body Acceleration Jerk bandsEnergy()-25,48
+fBodyGyro-mean()-X					Fourier Body Gyro mean()-X
+fBodyGyro-mean()-Y					Fourier Body Gyro mean()-Y
+fBodyGyro-mean()-Z					Fourier Body Gyro mean()-Z
+fBodyGyro-std()-X					Fourier Body Gyro Standard deviation()-X
+fBodyGyro-std()-Y					Fourier Body Gyro Standard deviation()-Y
+fBodyGyro-std()-Z					Fourier Body Gyro Standard deviation()-Z
+fBodyGyro-mad()-X					Fourier Body Gyro Median absolute deviation()-X                     
+fBodyGyro-mad()-Y					Fourier Body Gyro Median absolute deviation()-Y
+fBodyGyro-mad()-Z					Fourier Body Gyro Median absolute deviation()-Z
+fBodyGyro-max()-X					Fourier Body Gyro max()-X
+fBodyGyro-max()-Y					Fourier Body Gyro max()-Y
+fBodyGyro-max()-Z					Fourier Body Gyro max()-Z
+fBodyGyro-min()-X					Fourier Body Gyro min()-X
+fBodyGyro-min()-Y					Fourier Body Gyro min()-Y
+fBodyGyro-min()-Z					Fourier Body Gyro min()-Z
+fBodyGyro-sma()						Fourier Body Gyro Signal magnitude area()
+fBodyGyro-energy()-X				Fourier Body Gyro energy()-X
+fBodyGyro-energy()-Y				Fourier Body Gyro energy()-Y
+fBodyGyro-energy()-Z				Fourier Body Gyro energy()-Z
+fBodyGyro-iqr()-X					Fourier Body Gyro Interquartile range()-X
+fBodyGyro-iqr()-Y					Fourier Body Gyro Interquartile range()-Y
+fBodyGyro-iqr()-Z					Fourier Body Gyro Interquartile range()-Z
+fBodyGyro-entropy()-X				Fourier Body Gyro entropy()-X
+fBodyGyro-entropy()-Y				Fourier Body Gyro entropy()-Y
+fBodyGyro-entropy()-Z				Fourier Body Gyro entropy()-Z
+fBodyGyro-maxInds-X					Fourier Body Gyro Max index-X
+fBodyGyro-maxInds-Y					Fourier Body Gyro Max index-Y
+fBodyGyro-maxInds-Z					Fourier Body Gyro Max index-Z
+fBodyGyro-meanFreq()-X				Fourier Body Gyro meanFreq()-X
+fBodyGyro-meanFreq()-Y				Fourier Body Gyro meanFreq()-Y
+fBodyGyro-meanFreq()-Z				Fourier Body Gyro meanFreq()-Z
+fBodyGyro-skewness()-X				Fourier Body Gyro skewness()-X
+fBodyGyro-kurtosis()-X				Fourier Body Gyro kurtosis()-X
+fBodyGyro-skewness()-Y				Fourier Body Gyro skewness()-Y
+fBodyGyro-kurtosis()-Y				Fourier Body Gyro kurtosis()-Y
+fBodyGyro-skewness()-Z				Fourier Body Gyro skewness()-Z
+fBodyGyro-kurtosis()-Z				Fourier Body Gyro kurtosis()-Z
+fBodyGyro-bandsEnergy()-1,8			Fourier Body Gyro bandsEnergy()-1,8
+fBodyGyro-bandsEnergy()-9,16		Fourier Body Gyro bandsEnergy()-9,16
+fBodyGyro-bandsEnergy()-17,24		Fourier Body Gyro bandsEnergy()-17,24
+fBodyGyro-bandsEnergy()-25,32		Fourier Body Gyro bandsEnergy()-25,32
+fBodyGyro-bandsEnergy()-33,40		Fourier Body Gyro bandsEnergy()-33,40
+fBodyGyro-bandsEnergy()-41,48		Fourier Body Gyro bandsEnergy()-41,48
+fBodyGyro-bandsEnergy()-49,56		Fourier Body Gyro bandsEnergy()-49,56
+fBodyGyro-bandsEnergy()-57,64		Fourier Body Gyro bandsEnergy()-57,64
+fBodyGyro-bandsEnergy()-1,16		Fourier Body Gyro bandsEnergy()-1,16
+fBodyGyro-bandsEnergy()-17,32		Fourier Body Gyro bandsEnergy()-17,32
+fBodyGyro-bandsEnergy()-33,48		Fourier Body Gyro bandsEnergy()-33,48
+fBodyGyro-bandsEnergy()-49,64		Fourier Body Gyro bandsEnergy()-49,64
+fBodyGyro-bandsEnergy()-1,24		Fourier Body Gyro bandsEnergy()-1,24
+fBodyGyro-bandsEnergy()-25,48		Fourier Body Gyro bandsEnergy()-25,48
+fBodyGyro-bandsEnergy()-1,8			Fourier Body Gyro bandsEnergy()-1,8
+fBodyGyro-bandsEnergy()-9,16		Fourier Body Gyro bandsEnergy()-9,16
+fBodyGyro-bandsEnergy()-17,24		Fourier Body Gyro bandsEnergy()-17,24                               
+fBodyGyro-bandsEnergy()-25,32		Fourier Body Gyro bandsEnergy()-25,32
+fBodyGyro-bandsEnergy()-33,40		Fourier Body Gyro bandsEnergy()-33,40
+fBodyGyro-bandsEnergy()-41,48		Fourier Body Gyro bandsEnergy()-41,48
+fBodyGyro-bandsEnergy()-49,56		Fourier Body Gyro bandsEnergy()-49,56                               
+fBodyGyro-bandsEnergy()-57,64		Fourier Body Gyro bandsEnergy()-57,64
+fBodyGyro-bandsEnergy()-1,16		Fourier Body Gyro bandsEnergy()-1,16
+fBodyGyro-bandsEnergy()-17,32		Fourier Body Gyro bandsEnergy()-17,32
+fBodyGyro-bandsEnergy()-33,48		Fourier Body Gyro bandsEnergy()-33,48
+fBodyGyro-bandsEnergy()-49,64		Fourier Body Gyro bandsEnergy()-49,64
+fBodyGyro-bandsEnergy()-1,24		Fourier Body Gyro bandsEnergy()-1,24
+fBodyGyro-bandsEnergy()-25,48		Fourier Body Gyro bandsEnergy()-25,48
+fBodyGyro-bandsEnergy()-1,8			Fourier Body Gyro bandsEnergy()-1,8
+fBodyGyro-bandsEnergy()-9,16		Fourier Body Gyro bandsEnergy()-9,16
+fBodyGyro-bandsEnergy()-17,24		Fourier Body Gyro bandsEnergy()-17,24
+fBodyGyro-bandsEnergy()-25,32		Fourier Body Gyro bandsEnergy()-25,32
+fBodyGyro-bandsEnergy()-33,40		Fourier Body Gyro bandsEnergy()-33,40
+fBodyGyro-bandsEnergy()-41,48		Fourier Body Gyro bandsEnergy()-41,48
+fBodyGyro-bandsEnergy()-49,56		Fourier Body Gyro bandsEnergy()-49,56
+fBodyGyro-bandsEnergy()-57,64		Fourier Body Gyro bandsEnergy()-57,64
+fBodyGyro-bandsEnergy()-1,16		Fourier Body Gyro bandsEnergy()-1,16
+fBodyGyro-bandsEnergy()-17,32		Fourier Body Gyro bandsEnergy()-17,32
+fBodyGyro-bandsEnergy()-33,48		Fourier Body Gyro bandsEnergy()-33,48
+fBodyGyro-bandsEnergy()-49,64		Fourier Body Gyro bandsEnergy()-49,64
+fBodyGyro-bandsEnergy()-1,24		Fourier Body Gyro bandsEnergy()-1,24
+fBodyGyro-bandsEnergy()-25,48		Fourier Body Gyro bandsEnergy()-25,48
+fBodyAccMag-mean()					Fourier Body Acceleration Magnitute mean()
+fBodyAccMag-std()					Fourier Body Acceleration Magnitute Standard deviation()
+fBodyAccMag-mad()					Fourier Body Acceleration Magnitute Median absolute deviation()
+fBodyAccMag-max()					Fourier Body Acceleration Magnitute max()
+fBodyAccMag-min()					Fourier Body Acceleration Magnitute min()
+fBodyAccMag-sma()					Fourier Body Acceleration Magnitute Signal magnitude area()
+fBodyAccMag-energy()				Fourier Body Acceleration Magnitute energy()
+fBodyAccMag-iqr()					Fourier Body Acceleration Magnitute Interquartile range()
+fBodyAccMag-entropy()				Fourier Body Acceleration Magnitute entropy()
+fBodyAccMag-maxInds					Fourier Body Acceleration Magnitute Max index
+fBodyAccMag-meanFreq()				Fourier Body Acceleration Magnitute meanFreq()
+fBodyAccMag-skewness()				Fourier Body Acceleration Magnitute skewness()
+fBodyAccMag-kurtosis()				Fourier Body Acceleration Magnitute kurtosis()
+fBodyBodyAccJerkMag-mean()			Fourier Body Acceleration Jerk Magnitute mean()
+fBodyBodyAccJerkMag-std()			Fourier Body Acceleration Jerk Magnitute Standard deviation()
+fBodyBodyAccJerkMag-mad()			Fourier Body Acceleration Jerk Magnitute Median absolute deviation()
+fBodyBodyAccJerkMag-max()			Fourier Body Acceleration Jerk Magnitute max()
+fBodyBodyAccJerkMag-min()			Fourier Body Acceleration Jerk Magnitute min()
+fBodyBodyAccJerkMag-sma()			Fourier Body Acceleration Jerk Magnitute Signal magnitude area()
+fBodyBodyAccJerkMag-energy()		Fourier Body Acceleration Jerk Magnitute energy()
+fBodyBodyAccJerkMag-iqr()			Fourier Body Acceleration Jerk Magnitute Interquartile range()
+fBodyBodyAccJerkMag-entropy()		Fourier Body Acceleration Jerk Magnitute entropy()
+fBodyBodyAccJerkMag-maxInds			Fourier Body Acceleration Jerk Magnitute Max index                  
+fBodyBodyAccJerkMag-meanFreq()		Fourier Body Acceleration Jerk Magnitute meanFreq()
+fBodyBodyAccJerkMag-skewness()		Fourier Body Acceleration Jerk Magnitute skewness()
+fBodyBodyAccJerkMag-kurtosis()		Fourier Body Acceleration Jerk Magnitute kurtosis()
+fBodyBodyGyroMag-mean()				Fourier Body Gyro Magnitute mean()
+fBodyBodyGyroMag-std()				Fourier Body Gyro Magnitute Standard deviation()
+fBodyBodyGyroMag-mad()				Fourier Body Gyro Magnitute Median absolute deviation()
+fBodyBodyGyroMag-max()				Fourier Body Gyro Magnitute max()
+fBodyBodyGyroMag-min()				Fourier Body Gyro Magnitute min()
+fBodyBodyGyroMag-sma()				Fourier Body Gyro Magnitute Signal magnitude area()
+fBodyBodyGyroMag-energy()			Fourier Body Gyro Magnitute energy()
+fBodyBodyGyroMag-iqr()				Fourier Body Gyro Magnitute Interquartile range()
+fBodyBodyGyroMag-entropy()			Fourier Body Gyro Magnitute entropy()                               
+fBodyBodyGyroMag-maxInds			Fourier Body Gyro Magnitute Max index
+fBodyBodyGyroMag-meanFreq()			Fourier Body Gyro Magnitute meanFreq()
+fBodyBodyGyroMag-skewness()			Fourier Body Gyro Magnitute skewness()
+fBodyBodyGyroMag-kurtosis()			Fourier Body Gyro Magnitute kurtosis()
+fBodyBodyGyroJerkMag-mean()			Fourier Body Gyro Jerk Magnitute mean()
+fBodyBodyGyroJerkMag-std()			Fourier Body Gyro Jerk Magnitute Standard deviation()
+fBodyBodyGyroJerkMag-mad()			Fourier Body Gyro Jerk Magnitute Median absolute deviation()
+fBodyBodyGyroJerkMag-max()			Fourier Body Gyro Jerk Magnitute max()
+fBodyBodyGyroJerkMag-min()			Fourier Body Gyro Jerk Magnitute min()
+fBodyBodyGyroJerkMag-sma()			Fourier Body Gyro Jerk Magnitute Signal magnitude area()
+fBodyBodyGyroJerkMag-energy()		Fourier Body Gyro Jerk Magnitute energy()
+fBodyBodyGyroJerkMag-iqr()			Fourier Body Gyro Jerk Magnitute Interquartile range()
+fBodyBodyGyroJerkMag-entropy()		Fourier Body Gyro Jerk Magnitute entropy()
+fBodyBodyGyroJerkMag-maxInds		Fourier Body Gyro Jerk Magnitute Max index
+fBodyBodyGyroJerkMag-meanFreq()		Fourier Body Gyro Jerk Magnitute meanFreq()
+fBodyBodyGyroJerkMag-skewness()		Fourier Body Gyro Jerk Magnitute skewness()
+fBodyBodyGyroJerkMag-kurtosis()		Fourier Body Gyro Jerk Magnitute kurtosis()
+angle(tBodyAccMean,gravity)			angle(Body Acceleration Mean,gravity)
+angle(tBodyAccJerkMean),gravityMean)angle(Body Acceleration Jerk Mean),gravityMean)
+angle(tBodyGyroMean,gravityMean)	angle(Body Gyro Mean,gravityMean)
+angle(tBodyGyroJerkMean,gravityMean)angle(Body Gyro Jerk Mean,gravityMean)
+angle(X,gravityMean)				angle(X,gravityMean)
+angle(Y,gravityMean)				angle(Y,gravityMean)
+angle(Z,gravityMean)				angle(Z,gravityMean)
