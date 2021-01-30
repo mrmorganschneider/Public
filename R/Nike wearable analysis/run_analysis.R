@@ -24,7 +24,7 @@ if(!file.exists("UCI HAR Dataset") & file.exists("nike_data.zip")){
 #load data into R
 if(file.exists("UCI HAR Dataset")){
 
-    #load activity names
+    #load measurement names
     measurement_names <- (read.table(".\\UCI HAR Dataset\\features.txt", header = FALSE))[,"V2"]
 
     subject_test <- as_tibble(read.table(".\\UCI HAR Dataset\\test\\subject_test.txt", header = FALSE, sep = " "))
@@ -57,4 +57,36 @@ full_dataset <- bind_rows(add_column(subject_test, Y_test, X_test),
 
 mean_and_std_dataset <- select(full_dataset, matches("*-mean()-*"), matches("*-std()-*"))
 
-#Replace 
+#Replace activity labels
+
+full_dataset$Activity[full_dataset$Activity == "1"] <- "Walking"
+full_dataset$Activity[full_dataset$Activity == "2"] <- "Walking_upstairs"
+full_dataset$Activity[full_dataset$Activity == "3"] <- "Walking_downstairs"
+full_dataset$Activity[full_dataset$Activity == "4"] <- "Stitting"
+full_dataset$Activity[full_dataset$Activity == "5"] <- "Standing"
+full_dataset$Activity[full_dataset$Activity == "6"] <- "Laying"
+
+#Replace measurement names
+
+renamed_measurement_names <- str_replace(measurement_names, "^t", "") %>% #Remove leading t's
+    str_replace("^f", "Fourier ") %>% #replace f with Fourier
+    str_replace("-","") %>% #remove first dashes
+    str_replace("Mag", "Magnitute ") %>%
+    str_replace("Jerk", " Jerk ") %>%
+    str_replace("BodyAcc", "Body Acceleration ") %>%
+    str_replace("GravityAcc", "Gravity Acceleration ") %>%
+    str_replace("BodyGyro", "Body Gyro ") %>%
+    str_replace("std()","Standard deviation") %>%
+    str_replace("mad()","Median absolute deviation") %>%
+    str_replace("sma()","Signal magnitude area") %>%
+    str_replace("iqr()","Interquartile range") %>%
+    str_replace("arCoeff()","Autorregresion coefficient") %>%
+    str_replace("maxInds()","Max index") %>%
+    str_replace("MeanFreq()","Average frequency") %>%
+    str_replace("BodyBody","Body") %>% 
+    str_replace("tBody","Body") %>%
+    str_replace("  "," ")
+
+renamed_measurement_names <- c("Subject", "Activity", renamed_measurement_names)
+
+names(full_dataset) <- renamed_measurement_names
