@@ -49,5 +49,12 @@ if(file.exists("UCI HAR Dataset")){
 }
 
 #Merge datasets
-test_full <- add_column(subject_test, Y_test, X_test)
-train_full <- add_column(subject_train, Y_train, X_train)
+
+full_dataset <- bind_rows(add_column(subject_test, Y_test, X_test),
+                add_column(subject_train, Y_train, X_train))
+
+#Select mean and standard deviation dataset
+
+mean_and_std_dataset <- select(full_dataset, matches("*-mean()-*"), matches("*-std()-*"))
+
+#Replace 
