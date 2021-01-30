@@ -90,3 +90,11 @@ renamed_measurement_names <- str_replace(measurement_names, "^t", "") %>% #Remov
 renamed_measurement_names <- c("Subject", "Activity", renamed_measurement_names)
 
 names(full_dataset) <- renamed_measurement_names
+
+#Replace measurement names
+
+tidy_dataset <- full_dataset[!duplicated(as.list(full_dataset))] #Removes duplicate columns
+tidy_dataset <- tidy_dataset[, !duplicated(names(tidy_dataset))]
+
+tidy_dataset <- summarize_at(group_by(tidy_dataset, Subject, Activity), #summarize data by subject and activity
+                    vars(names(tidy_dataset)[3:458]), funs(mean(.,na.rm=TRUE)))
