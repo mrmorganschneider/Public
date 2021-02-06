@@ -20,7 +20,7 @@ axis(1, at = datetime, labels = c("Thu", "Fri", "Sat"))
 
 #plot second graph
 plot(data$Sub_metering_1, type ="l", 
-    xaxt = 'n', xlab = "", ylab = "Energy sub metering")
+    xaxt = 'n', xlab = "", ylab = "Energy sub metering") 
 axis(1, at = datetime, labels = c("Thu", "Fri", "Sat"))
 
 #add additional required line graphs to second plot

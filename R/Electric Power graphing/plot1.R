@@ -5,7 +5,7 @@
 library(tidyverse, help, pos = 2, lib.loc = NULL)
 data <- as_tibble(readRDS("formattedData.rds"))
 
-#Set display to PNG
+#Set display to PNG plot 1
 png("Plot1.png")
 
 #Create Plot 1
