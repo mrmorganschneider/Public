@@ -1,0 +1,19 @@
+NOAA weather health and property risk analysis
+===
+
+
+```{r}
+library(tidyverse)
+download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2", "StormData.csv.bz2")
+raw_Data <- read.csv("StormData.csv.bz2")
+raw_Data <- raw_Data[,c("EVTYPE","FATALITIES","INJURIES","PROPDMG","PROPDMGEXP")]
+```
+
+
+```{r}
+health_Data <- aggregate(cbind(raw_Data$FATALITIES, raw_Data$INJURIES), 
+    by=list(raw_Data$EVTYPE), FUN=sum) %>%
+    subset(V1 != 0 & V2 != 0)
+   
+health_Data <- health_Data[order(-health_Data$V1),]
+```
