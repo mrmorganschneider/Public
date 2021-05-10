@@ -17,7 +17,9 @@ raw_Data$EVTYPE <- str_replace_all(raw_Data$EVTYPE, "COLD/WIND CHILL", "WINTER S
 raw_Data$EVTYPE <- str_replace_all(raw_Data$EVTYPE, "ICE STORM", "WINTER STORM")
 raw_Data$EVTYPE <- str_replace_all(raw_Data$EVTYPE, "TSTM WINDS", "TSTM WIND")
 raw_Data$EVTYPE <- gsub(".*HURRICANE.*", "HURRICANE", raw_Data$EVTYPE, perl = TRUE)
+raw_Data$EVTYPE <- gsub( ".*STORM SURGE.*", "HURRICANE", raw_Data$EVTYPE, perl = TRUE)
 raw_Data$EVTYPE <- gsub( ".*HIGH SURF.*", "HIGH SURF", raw_Data$EVTYPE, perl = TRUE)
+
 
 #create fatality data
 sum_health_Data <- aggregate(cbind(raw_Data$FATALITIES, raw_Data$INJURIES), 
@@ -44,6 +46,5 @@ boxplot(top_6_data$INJURIES ~ top_6_data$EVTYPE, xlab = "Event",
     ylab = "Injuries", main = "Event injuries boxplot")
 
 #create cost data
-sum_cost_data <- aggregate(cbind(raw_Data$PROPDMG, raw_Data$PROPDMGEXP), 
-    by=list(raw_Data$EVTYPE), FUN=sum) %>%
-    subset(V1 != 0 & V2 != 0)
+cost_data <- table(subset(raw_Data, PROPDMGEXP == "B"))
+plot(cost_table[cost_table>1], type = "h")
